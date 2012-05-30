@@ -4,7 +4,7 @@ A clean, native [growl](http://growl.info/) notification style.
 
 ![Screenshot](http://aristidesfl.github.com/lion-growlstyle/images/screenshot.png)
 
-[Download](http://aristidesfl.github.com/lion-growlstyle/Lion-growlstyle.dmg)
+[Download](http://aristidesfl.github.com/lion-growlstyle/dmg/Lion-growstyle-1.1.dmg)
 --------
 After downloading, double click to install.
 
