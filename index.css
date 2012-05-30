@@ -3,6 +3,7 @@
 
 html {
   background-image: url("images/tile.png");
+  background-color: #EAEAEA;
   height: 100%;
 }
 body {
