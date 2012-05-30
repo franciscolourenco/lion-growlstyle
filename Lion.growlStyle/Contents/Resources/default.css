@@ -52,10 +52,8 @@ body, html {
 .high {
 	display:block;
 	background: url(bluehalfdot.png) no-repeat left top;
-	background-size: 9px;
 }
 .emergency {
 	display:block;
 	background: url(bluedot.png) no-repeat left top;
-	background-size: 9px;	
 }
