@@ -12,6 +12,10 @@
         
         <script type="text/javascript" src="javascript/prefixfree.min.js" ></script>
         
+        <!-- start Mixpanel --><script type="text/javascript">(function(d,c){var a,b,g,e;a=d.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===d.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";g="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config".split(" ");
+        for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
+        mixpanel.init("8828beaba31b5fe88c9d68c657b9662b");</script><!-- end Mixpanel -->
+
 	</head>
 	<body style="opacity:%opacity%;">
 
@@ -70,7 +74,13 @@
 
         </div>
 
+        <script type="text/javascript">
+            mixpanel.track('page viewed', {'page name' : document.title, 'url' : window.location.pathname});
+            document.getElementById('download').onclick = function(){ mixpanel.track("Download") };
+        </script>
+
         <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 
         <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fbbcb3a0fe64942"></script>
 	</body>
