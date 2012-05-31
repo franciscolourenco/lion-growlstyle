@@ -39,7 +39,7 @@ a {
   font-family: "Museo-500", sans-serif;
   color: rgba(0, 0, 0, 0.12);}
 #notifications {
-  margin: 35px auto 40px auto;
+  margin: 20px auto 40px auto;
   border-radius: 8px;
   padding: 16px;
   width: 283px;
@@ -86,7 +86,7 @@ a {
 
 #floater {
   height: 50%;
-  margin-bottom: -355px;
+  margin-bottom: -330px;
   float:left;
   background-color: #66ccff;}
 #wrapper {
@@ -95,7 +95,7 @@ a {
 }
 #content {
   clear:both;
-  padding: 60px 60px 100px; 
+  padding: 60px 60px 100px;
 }
 
 .twitter-follow-button{
@@ -115,7 +115,7 @@ a {
 .addthis_toolbox {
   border-radius: 5px;
   background-color: transparent;
-}   
+}
 
 #spread {
   transform: rotate(90deg);
