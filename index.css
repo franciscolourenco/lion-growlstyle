@@ -65,7 +65,7 @@ a {
   /*box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.85), inset 1px 1px 1px #E0E0E0;*/
 }
 #download {
-  color: rgba(0, 0, 0, 0.11);
+  color: rgba(0, 0, 0, 0.10);
   display: block;
   font: 110px 'icon';
   width: 65px;
@@ -74,7 +74,7 @@ a {
   margin: 60px auto 0px auto;
   font-weight: normal;
 }
-#download:hover { color: rgba(0, 0, 0, 0.13); }
+#download:hover { color: rgba(0, 0, 0, 0.12); }
 #download:active { text-shadow: white 1px 1px 2px; color: rgba(0, 0, 0, 0.14); }
 #download:hover #version { display: block; }
 #version {
