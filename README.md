@@ -2,7 +2,7 @@
 ====
 ![Screenshot](http://aristidesfl.github.com/lion-growlstyle/images/screenshot.png)
 
-A seamless [growl](http://growl.info/) notification style based on Lion's quickview bezel.
+A [Growl](http://growl.info/) style based on Mac OS X quickview bezel.
 
 [Download](http://aristidesfl.github.com/lion-growlstyle/dmg/Lion-growlstyle-1.1.dmg)
 --------
