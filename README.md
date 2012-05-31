@@ -4,7 +4,7 @@
 
 A seamless [growl](http://growl.info/) notification style based on Lion's quickview bezel.
 
-[Download](http://aristidesfl.github.com/lion-growlstyle/dmg/Lion-growstyle-1.1.dmg)
+[Download](http://aristidesfl.github.com/lion-growlstyle/dmg/Lion-growlstyle-1.1.dmg)
 --------
 After downloading, double click to install.
 
