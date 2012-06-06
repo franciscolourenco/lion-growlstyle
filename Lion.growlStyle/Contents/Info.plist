@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>GWKM</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleSignature</key>
 	<string>AFL</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CSResourcesFileMapped</key>
 	<string>yes</string>
 	<key>GrowlHasShadow</key>
@@ -29,8 +29,8 @@
 	<key>GrowlPluginAuthor</key>
 	<string>Aristides Lourenço (aristidesfl)</string>
 	<key>GrowlPaddingX</key>
-	<real>5.0</real>
+	<real>10.0</real>
 	<key>GrowlPaddingY</key>
-	<real>5.0</real>
+	<real>10.0</real>
 </dict>
 </plist>
