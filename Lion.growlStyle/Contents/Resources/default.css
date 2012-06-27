@@ -1,7 +1,8 @@
 body, html {
 	text-rendering: optimizeLegibility;
-	font-family: Lucida Grande;	
-	margin: 0px;
+	font-family: Lucida Grande;
+	margin: 5px 15px 0 6px;
+	width: 269px;
 }
 .notification {
 	-webkit-box-sizing: border-box;
@@ -13,6 +14,7 @@ body, html {
 	-webkit-box-sizing: border-box;
 	clear: both;
 	overflow: hidden;
+	position: relative;
 }
 .icon {
 	position: absolute;
