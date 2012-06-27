@@ -1,18 +1,20 @@
 body, html {
 	text-rendering: optimizeLegibility;
-	font-family: Lucida Grande;	
-	margin: 0px;
+	font-family: Lucida Grande;
+	margin: 5px 15px 0 6px;
+	width: 269px;
 }
 .notification {
 	-webkit-box-sizing: border-box;
-	border-radius: 5px;	
-	width: 260px;			
+	border-radius: 5px;
+	width: 260px;
 	background: whiteSmoke;
-	-webkit-box-shadow: inset 0px 1px 0px white, 0px 2px 0px -1px hsla(0, 0%, 0%, 0.1);	
+	-webkit-box-shadow: inset 0px 1px 0px white, 0px 2px 0px -1px hsla(0, 0%, 0%, 0.1);
 	padding: 9px 10px 9px 44px;
 	-webkit-box-sizing: border-box;
 	clear: both;
 	overflow: hidden;
+	position: relative;
 }
 .icon {
 	position: absolute;
@@ -25,9 +27,9 @@ body, html {
 }
 .title, .text  {
 	line-height:13px;
-	margin: 0; 
+	margin: 0;
 	padding: 0;
-	-webkit-font-smoothing: subpixel-antialiased;	
+	-webkit-font-smoothing: subpixel-antialiased;
 	text-shadow: 0px 1px 0px white;
 }
 .title {
@@ -35,12 +37,12 @@ body, html {
 	color: hsl(0,0%,25%);
 	font-weight: 700;
 }
-.text { 
+.text {
 	margin-top: 1px;
 	font-size: 8pt;
 	color: hsl(0,0%,50%);
 	font-weight: 100;
-	-webkit-hyphens: auto;	
+	-webkit-hyphens: auto;
 }
 .priority {
 	width: 9px;
